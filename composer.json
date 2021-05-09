@@ -1,0 +1,20 @@
+{
+    "name": "cz/php-spring",
+    "description": "spring framework for php",
+    "type": "library",
+    "authors": [
+        {
+            "name": "cyij",
+            "email": "cyij2006@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PHPSpring\\": "src/"
+        }
+    }
+}
